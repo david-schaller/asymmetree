@@ -68,7 +68,7 @@ def gene_trees(S,
     dupl_rate_sampler = Sampler(dupl_rate)
     loss_rate_sampler = Sampler(loss_rate)
     hgt_rate_sampler = Sampler(hgt_rate)
-    base_rate_sampler = Sampler(dupl_rate)
+    base_rate_sampler = Sampler(base_rate)
     
     # autocorrelation between genes of the same or related species
     autocorr_variance = kwargs.pop('autocorr_variance', 0.0)
